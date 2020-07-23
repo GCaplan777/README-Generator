@@ -85,9 +85,16 @@ const questions = [
 // Functions========================
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, function (err) {
+    if (err) {
+      console.log(err);
+    }
+    console.log("Success!");
+  });
+}
 
-// function to initialize program (*kicking things off)
+// function to initialize program
 
 function init() {
   // prompt question for the user inquirer module
