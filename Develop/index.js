@@ -15,7 +15,7 @@
 
 const inquirer = require("inquirer");
 var fs = require("fs");
-var genMarkdown = require("Develop/utils/generateMarkdown.js");
+var genMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions (to prompt user)
 const questions = [
@@ -50,9 +50,8 @@ const questions = [
     name: "license",
     choices: [
       "Apache License 2.0",
-      "PythonGNU General Public License v3.0",
-      "MIT License",
       "Boost Software License 1.0",
+      "MIT License",
     ],
   },
   // Contributing
