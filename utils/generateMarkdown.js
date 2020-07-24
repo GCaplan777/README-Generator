@@ -49,7 +49,7 @@ function generateMarkdown(data) {
   return `# ${data.title} 
   ## Description
    ${data.description}
-
+   
   ${badge}
 
   ## Table of Contents
@@ -62,6 +62,7 @@ function generateMarkdown(data) {
   - [Questions](#Questions)
   
   ## Installation
+  
   ${data.installation}
   
   ## Usage
