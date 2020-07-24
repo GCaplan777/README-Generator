@@ -1,6 +1,6 @@
-# s 
+# ReadMe Generator 
   ## Description
-   s
+   A streamlined, easy to use README is essential in presenting one's work to the coding community. This app provides  access to all the topics a README covers, with a clean formatting for ease of use, ease of peruse.
 
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -14,20 +14,21 @@
   - [Questions](#Questions)
   
   ## Installation
-  s
+  npm install inquirer --save
   
   ## Usage
-  s
+  node.js - inquirer - generate Markdown
   ## License
  
   Apache License <br>Version 2.0, January 2004<br>http://www.apache.org/licenses/
   
   ## Contributing
-  s
+  https://github.com/kao-ring
   
   ## Tests
-  s
+  Functionality. All links good.
   
-  ## Contact
+  ## Questions
   https://github.com/GCaplan777
   
+  gabriel.caplan@gmail.com
